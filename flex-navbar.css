@@ -1,0 +1,38 @@
+
+
+.navbar-flex {
+    width: 100%;
+    height: 64px;
+    background-color: #c8d6e5;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-flex .nav-left, .navbar .nav-right {
+    flex: 1;
+}
+
+.navbar-flex .nav-left img {
+    width: 42px;
+}
+
+.navbar-flex .nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    min-width: 64px;
+    justify-content: center;
+}
+
+.navbar-flex .nav-item a {
+    color: #222f3e;
+    text-decoration: none;
+}
+
+.navbar-flex .nav-right {
+    justify-content: flex-end;
+    display: flex;
+}

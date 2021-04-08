@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section+section {
+    margin-top: 1rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
